@@ -78,7 +78,7 @@ The dashboard contains three main sections:
 
 1. HR Overview
 
-"HR Overview Dashboard" (https://raw.githubusercontent.com/tasneem-mukhtar/HR-Analytics-Employee-Attrition-Analysis/refs/heads/main/HR_Overview.jpg)
+![HR Overview Dashboard](https://raw.githubusercontent.com/tasneem-mukhtar/HR-Analytics-Employee-Attrition-Analysis/refs/heads/main/HR_Overview.jpg)
 
 2. Attrition Drivers
 
