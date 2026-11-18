@@ -1,4 +1,4 @@
-# HR Analytics Employee Attrition & Workforce Analysis
+HR Analytics – Employee Attrition & Workforce Analysis
 
 1. Project Overview
 
@@ -78,15 +78,15 @@ The dashboard contains three main sections:
 
 1. HR Overview
 
-"HR Overview Dashboard" (HR_Overview.jpg)
+"HR Overview Dashboard" (https://raw.githubusercontent.com/tasneem-mukhtar/HR-Analytics-Employee-Attrition-Analysis/refs/heads/main/HR_Overview.jpg)
 
 2. Attrition Drivers
 
-"Attrition Drivers Dashboard" (Attrition_Drivers.jpg)
+"Attrition Drivers Dashboard" (https://raw.githubusercontent.com/tasneem-mukhtar/HR-Analytics-Employee-Attrition-Analysis/refs/heads/main/Attrition_Drivers.jpg)
 
 3. Risk Segments
 
-"Risk Segments Dashboard" (Risk_Segments.jpg)
+"Risk Segments Dashboard" (https://raw.githubusercontent.com/tasneem-mukhtar/HR-Analytics-Employee-Attrition-Analysis/refs/heads/main/Risk_Segments.jpg)
 
 6. Key Business Insights
 
