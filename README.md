@@ -82,11 +82,12 @@ The dashboard contains three main sections:
 
 2. Attrition Drivers
 
-"Attrition Drivers Dashboard" (https://raw.githubusercontent.com/tasneem-mukhtar/HR-Analytics-Employee-Attrition-Analysis/refs/heads/main/Attrition_Drivers.jpg)
+![Attrition Drivers Dashboard](https://raw.githubusercontent.com/tasneem-mukhtar/HR-Analytics-Employee-Attrition-Analysis/refs/heads/main/Attrition_Drivers.jpg)
+
 
 3. Risk Segments
 
-"Risk Segments Dashboard" (https://raw.githubusercontent.com/tasneem-mukhtar/HR-Analytics-Employee-Attrition-Analysis/refs/heads/main/Risk_Segments.jpg)
+![Risk Segments Dashboard](https://raw.githubusercontent.com/tasneem-mukhtar/HR-Analytics-Employee-Attrition-Analysis/refs/heads/main/Risk_Segments.jpg)
 
 6. Key Business Insights
 
