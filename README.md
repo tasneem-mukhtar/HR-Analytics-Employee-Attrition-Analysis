@@ -44,8 +44,6 @@ Power BI| Interactive dashboards and data visualization
 
 5. Project Files
 
-The repository contains the following project materials:
-
 File| Description
 "HR_Attrition_Raw_Data.csv"| Original employee dataset
 "HR_Attrition_Excel_Analysis.xlsx"| Excel analysis
@@ -64,19 +62,19 @@ Page 1 – HR Overview
 
 Provides a high-level view of workforce health, including total employees, attrition rate, and department-wise employee distribution.
 
-"HR Overview Dashboard" (./HR_Overview.jpg)
+"HR Overview Dashboard" (HR_Overview.jpg)
 
 Page 2 – Attrition Drivers
 
 Explores factors associated with employee attrition, including satisfaction, workload, promotion history, and salary.
 
-"Attrition Drivers Dashboard" (./Attrition_Drivers.jpg)
+"Attrition Drivers Dashboard" (Attrition_Drivers.jpg)
 
 Page 3 – Risk Segments
 
 Classifies employees into Low, Medium, and High-Risk segments to highlight groups that may require additional HR attention.
 
-"Risk Segments Dashboard" (./Risk_Segments.jpg)
+"Risk Segments Dashboard" (Risk_Segments.jpg)
 
 7. Key Business Insights
 
@@ -90,8 +88,6 @@ The analysis highlights several important patterns:
 - Risk segmentation helps identify employees who may require proactive retention attention.
 
 8. HR Recommendations
-
-Based on the findings, the following recommendations are proposed:
 
 1. Improve employee satisfaction: Introduce regular employee engagement and satisfaction surveys.
 2. Manage workloads: Monitor excessive working hours and take steps to reduce employee burnout.
