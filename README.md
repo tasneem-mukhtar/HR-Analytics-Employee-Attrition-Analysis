@@ -8,7 +8,7 @@ Employee attrition can increase recruitment costs, reduce productivity, and disr
 
 This project focuses on understanding employee attrition patterns, identifying factors associated with employees leaving an organization, and highlighting workforce segments that may require retention interventions.
 
-The analysis brings together data preparation, exploratory analysis, and interactive Power BI dashboards to support data-driven HR decision-making.
+The analysis combines data preparation, exploratory analysis, and interactive Power BI dashboards to support data-driven HR decision-making.
 
 2. Business Objectives
 
@@ -64,19 +64,19 @@ Page 1 – HR Overview
 
 Provides a high-level view of workforce health, including total employees, attrition rate, and department-wise employee distribution.
 
-"HR Overview Dashboard" (HR_Overview.jpg)
+"HR Overview Dashboard" (./HR_Overview.jpg)
 
 Page 2 – Attrition Drivers
 
 Explores factors associated with employee attrition, including satisfaction, workload, promotion history, and salary.
 
-"Attrition Drivers Dashboard" (Attrition_Drivers.jpg)
+"Attrition Drivers Dashboard" (./Attrition_Drivers.jpg)
 
 Page 3 – Risk Segments
 
 Classifies employees into Low, Medium, and High-Risk segments to highlight groups that may require additional HR attention.
 
-"Risk Segments Dashboard" (Risk_Segments.jpg)
+"Risk Segments Dashboard" (./Risk_Segments.jpg)
 
 7. Key Business Insights
 
