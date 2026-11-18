@@ -1,122 +1,148 @@
 # HR Analytics Employee Attrition & Workforce Analysis
 
-An HR analytics project exploring employee attrition, workforce patterns, employee satisfaction, workload, and retention risks using Excel, SQL, Python, and Power BI.
-
 1. Project Overview
 
-Employee attrition can increase recruitment costs, reduce productivity, and disrupt organizational continuity.
+This project analyzes employee attrition and workforce trends to understand factors associated with employee turnover and support data-driven HR decisions.
 
-This project focuses on understanding employee attrition patterns, identifying factors associated with employees leaving an organization, and highlighting workforce segments that may require retention interventions.
+The objective is to explore employee satisfaction, workload, salary, promotion history, department distribution, and attrition risk to identify workforce patterns and potential retention opportunities.
 
-The analysis combines data preparation, exploratory analysis, and interactive Power BI dashboards to support data-driven HR decision-making.
+The project uses Excel, SQL, Python, and Power BI as part of an HR analytics workflow.
 
-2. Business Objectives
+2. Business Problem Statement
 
-- Understand overall employee attrition patterns.
-- Examine attrition across departments and salary levels.
-- Explore the relationship between employee satisfaction and attrition.
-- Investigate workload and promotion history as potential attrition drivers.
-- Segment employees into Low, Medium, and High-Risk categories.
-- Provide actionable recommendations to support employee retention.
+Employee attrition can increase recruitment costs, reduce productivity, and disrupt workforce stability.
 
-3. Dataset
+The organization wants to understand which employee groups and workplace factors are associated with higher attrition so that HR teams can develop more effective employee engagement and retention strategies.
 
-The project uses an employee HR dataset containing information related to:
+Main Business Question:
+
+How can HR analytics help identify employee attrition patterns, recognize high-risk employee groups, and support employee retention?
+
+3. Dataset Summary
+
+The project uses an employee HR dataset containing information about:
 
 - Employee satisfaction
 - Department
-- Salary
+- Salary level
 - Average monthly working hours
 - Promotion history
-- Tenure
 - Employee attrition status
 
-The original raw dataset is included in this repository for reference.
+These attributes are used to explore workforce trends and employee attrition patterns.
 
-4. Tools & Technologies
+4. Tools and Technologies
 
 Tool| Purpose
-Excel| Initial data exploration and analysis
-SQL| Data cleaning, validation, and querying
-Python| Data cleaning, transformation, and exploratory analysis
-Pandas & NumPy| Data manipulation and analysis
-Power BI| Interactive dashboards and data visualization
+Microsoft Excel| Data exploration and analysis
+SQL| Data cleaning and business analysis
+Python (Pandas, NumPy)| Data preparation and exploratory analysis
+Jupyter Notebook| Python development environment
+Power BI| Interactive dashboards and visualization
 
-5. Project Files
+5. Project Workflow
 
-File| Description
-"HR_Attrition_Raw_Data.csv"| Original employee dataset
-"HR_Attrition_Excel_Analysis.xlsx"| Excel analysis
-"HR_Attrition_Cleaning.sql"| SQL cleaning and analysis queries
-"HR_Attrition_Analysis.ipynb"| Python analysis notebook
-"HR_Attrition_Dashboard.pbix"| Power BI dashboard
-"HR_Overview.jpg"| HR Overview dashboard screenshot
-"Attrition_Drivers.jpg"| Attrition Drivers dashboard screenshot
-"Risk_Segments.jpg"| Risk Segments dashboard screenshot
+A. Data Exploration and Preparation
 
-6. Power BI Dashboard
+The employee dataset was examined to understand its structure and relevant workforce attributes.
 
-The interactive Power BI dashboard is organized into three pages.
+Key activities included:
 
-Page 1 – HR Overview
+1. Reviewing employee information and dataset structure.
+2. Exploring employee satisfaction, salary, workload, and promotion history.
+3. Preparing data for further analysis.
+4. Identifying workforce characteristics associated with employee attrition.
 
-Provides a high-level view of workforce health, including total employees, attrition rate, and department-wise employee distribution.
+B. SQL Analysis
+
+SQL was used to explore employee data and investigate workforce patterns.
+
+Key activities included:
+
+- Checking for duplicate records.
+- Exploring attrition by department.
+- Comparing attrition across salary groups.
+- Examining employee satisfaction and workload patterns.
+
+C. Python Analysis
+
+Python libraries, including Pandas and NumPy, were used for data preparation, feature creation, and exploratory data analysis.
+
+The analysis explored employee characteristics and patterns associated with attrition.
+
+D. Power BI Dashboard
+
+An interactive Power BI dashboard was developed to present workforce metrics and employee attrition insights.
+
+The dashboard contains three main sections:
+
+1. HR Overview
 
 "HR Overview Dashboard" (HR_Overview.jpg)
 
-Page 2 – Attrition Drivers
-
-Explores factors associated with employee attrition, including satisfaction, workload, promotion history, and salary.
+2. Attrition Drivers
 
 "Attrition Drivers Dashboard" (Attrition_Drivers.jpg)
 
-Page 3 – Risk Segments
-
-Classifies employees into Low, Medium, and High-Risk segments to highlight groups that may require additional HR attention.
+3. Risk Segments
 
 "Risk Segments Dashboard" (Risk_Segments.jpg)
 
-7. Key Business Insights
+6. Key Business Insights
 
-The analysis highlights several important patterns:
+The analysis highlighted several patterns:
 
-- Employees with lower satisfaction levels are more likely to leave.
-- High workloads, particularly average monthly working hours above 200, are strongly associated with attrition.
-- Employees without promotion in the last five years show higher disengagement and exit rates.
-- Lower salary bands show higher attrition.
-- Certain departments have a higher concentration of high-risk employees.
-- Risk segmentation helps identify employees who may require proactive retention attention.
+1. Employees with lower satisfaction levels showed a greater tendency to leave.
+2. Employees working more than 200 average monthly hours showed a notable association with attrition.
+3. Employees without a promotion in the previous five years showed higher disengagement and exit patterns.
+4. Some departments contained a greater concentration of high-risk employees.
+5. Employee risk segmentation helped distinguish Low, Medium, and High attrition-risk groups.
 
-8. HR Recommendations
+These findings represent observed associations in the dataset and do not establish that any single factor directly causes employee attrition.
 
-1. Improve employee satisfaction: Introduce regular employee engagement and satisfaction surveys.
-2. Manage workloads: Monitor excessive working hours and take steps to reduce employee burnout.
-3. Encourage career development: Introduce structured promotion and internal mobility opportunities.
-4. Focus on high-risk departments: Develop targeted retention strategies for departments with higher concentrations of at-risk employees.
-5. Use proactive risk monitoring: Apply risk segmentation to identify employees who may benefit from early engagement and support.
+7. HR Recommendations
 
-9. Business Impact
+Based on the analytical findings, the project proposes the following strategies:
 
-The project demonstrates how HR analytics can support:
+1. Improve Employee Satisfaction: Conduct regular engagement surveys and address employee concerns.
+2. Monitor Workload: Identify excessive working hours and introduce workload-management practices.
+3. Encourage Career Development: Review promotion opportunities and internal mobility for employees with extended periods without promotion.
+4. Focus on High-Risk Departments: Monitor departments with higher concentrations of employees at risk of leaving.
+5. Support At-Risk Employees: Encourage proactive engagement with employees identified in the high-risk category.
 
-- Earlier identification of potential attrition risks.
-- More informed employee retention strategies.
-- Improved workforce planning.
-- Better understanding of employee behaviour and workplace patterns.
-- Data-driven HR decision-making.
+8. Project Deliverables
+
+The project includes:
+
+1. Employee HR dataset.
+2. SQL cleaning and analysis scripts.
+3. Python notebook for data preparation and exploratory analysis.
+4. Power BI dashboard.
+5. Dashboard preview images.
+6. Business insights and HR recommendations.
+
+9. Skills Demonstrated
+
+- HR data analytics
+- Data exploration and preparation
+- SQL querying and analysis
+- Python and Pandas
+- Exploratory data analysis
+- Power BI dashboard development
+- Data visualization
+- Employee attrition analysis
+- Business insights and recommendations
 
 10. Conclusion
 
-This project demonstrates how employee data can be used to explore attrition patterns, understand workforce challenges, and identify potential retention risks.
+This project demonstrates how data analytics can support workforce planning and employee retention.
 
-By combining spreadsheet analysis, SQL querying, Python-based analysis, and Power BI visualization, the project translates HR data into business insights and practical recommendations.
-
-The overall objective is to help organizations move from reactive attrition management toward more proactive, data-driven workforce planning.
+By exploring employee satisfaction, workload, salary, promotion history, and departmental patterns, the analysis highlights areas HR teams can investigate to better understand attrition and develop informed retention strategies.
 
 11. Acknowledgement
 
-This project is adapted from the HR Analytics – Employee Attrition project by Dhnashri Borse.
+This project was developed with reference to the work of Dhnashri Borse.
 
-Original project: "HR-Analytics-Employee-Attrition" (https://github.com/dhanashri-analytics26/HR-Analytics-Employee-Attrition)
+Original project: "HR Analytics – Employee Attrition" (https://github.com/dhanashri-analytics26/HR-Analytics-Employee-Attrition)
 
-Credit is given to the original creator for the source project materials and business analysis framework.
+Credit is given to the original creator for the project reference and source materials.
